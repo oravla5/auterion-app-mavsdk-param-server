@@ -1,12 +1,12 @@
 auterion-api-version: 2
 auterion-app-base: none
 
-app-name: libmav-telemetry-python
+app-name: mavsdk-param-server
 app-version: 1.0.0
-app-author: com.auterion
+app-author: auterion
 
 target-platform: [skynode]
 
 services:
-  telemetry:
-    build: services/telemetry
+  param_server:
+    build: services/param-server
